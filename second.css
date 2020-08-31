@@ -1,0 +1,138 @@
+header {
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+header .content {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+header .menubar .logo_section {
+  float: left;
+  width: 10%;
+}
+
+header .menubar .menu_section {
+  width: 90%;
+  float: left;
+}
+header .menubar .logo_section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+header .menubar .menu_section ul {
+  list-style: none;
+  float: right;
+}
+header .menubar .menu_section ul li {
+  display: inline;
+  padding-left: 10px;
+}
+header .menubar .menu_section ul li a {
+  font-size: 15px;
+  color: #000;
+}
+header .menubar .menu_section ul li a:hover {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+header .menubar .menu_section ul li a img {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.container .card img {
+  width: 100%;
+}
+
+.container .row {
+  margin-bottom: 10px;
+}
+main .container img {
+  height: 300px;
+  width: 300px;
+}
+main .card_top {
+  position: relative;
+}
+
+main .card_top .top_rated {
+  position: absolute;
+  background-color: rgb(192, 50, 50);
+  border-radius: 4px;
+  margin: 10px;
+  padding: 0 5px 0 5px;
+}
+footer {
+  padding: 10px;
+  background-color: #f8f8f8;
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+footer .flex_row {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+footer .flex_row .menubar {
+  flex: 2 1;
+}
+
+footer .flex_row .menubar .logo_section {
+  width: 10%;
+  float: left;
+}
+
+footer .flex_row .menubar .menu_section {
+  width: 90%;
+  float: left;
+}
+footer .flex_row .menubar .logo_section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+footer .flex_row .menubar .menu_section ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+footer .flex_row .menubar .menu_section ul li {
+  display: inline;
+  padding-left: 10px;
+}
+footer .flex_row .menubar .menu_section ul li a {
+  font-size: 15px;
+  color: #000;
+}
+footer .flex_row .menubar .menu_section ul li a:hover {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+footer .flex_row .menubar .menu_section ul li a img {
+  height: 30px;
+  margin-right: 5px;
+}
+
+footer .flex_row .submit_form {
+  flex: 1 1;
+}
+footer .flex_row .submit_form input {
+  border-radius: 5px;
+}
+@media (max-width: 991px) {
+  .menu_section {
+    padding-left: 10%;
+  }
+}
